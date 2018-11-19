@@ -295,6 +295,9 @@ body {
   margin:0;
   width: inherit;
 }
-.floated {
-  
+.floated_one {
+    float: right;
+}
+.floated_two {
+    float: left;
 }
