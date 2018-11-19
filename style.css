@@ -297,8 +297,9 @@ body {
 }
 .floated_one {
     float: right;
-
+    margin-bottom: 100px;
 }
 .floated_two {
     float: left;
+    margin-top: 100px;
 }
