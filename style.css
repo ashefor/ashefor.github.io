@@ -220,7 +220,7 @@ img.hidden-child {
    font-family: 'PT Sans', sans-serif;
  }
  .footer-topinner {
-  
+
  }
  .w3-input {
     padding: 8px;
@@ -437,4 +437,25 @@ table, td {
   text-transform: uppercase;
   font-size: 20px;
   font-family: 'PT Sans', sans-serif;
+}
+.blakeimage {
+  display: flex;
+}
+.blakeimage img {
+  width: 500px;
+  height: 300px;
+  margin-right: 10%;
+  margin-left: 10%;
+  opacity: 0.8;
+
+}
+.blakeimage p {
+  margin:auto;
+  font-size: 60px;
+  text-transform: capitalize;
+  font-family: 'PT Sans', sans-serif;
+}
+#resume h2 {
+  text-align: center;
+  font-weight:lighter;
 }
