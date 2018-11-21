@@ -24,10 +24,10 @@
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 .home-title span {
-      color: red;
+      color: grey;
 }
 .home-inner>p {
-    color: red;
+    color: grey;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 38px;
