@@ -94,10 +94,8 @@ ul {
 }
 #resume {
   width: 80%;
-  height: 500px;
   margin: auto;
   padding: 10px;
-  margin-top: 20px;
 }
 .title {
     font-size: 30px;
@@ -157,10 +155,14 @@ ul {
     margin: auto;
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 800px;
 }
 .experience-inner {
   margin-top: 50px;
-
+  margin-bottom: 50px;
+}
+.education {
+  width: 80%;
 }
 .inner-experience {
     color: #727272;
@@ -207,7 +209,6 @@ img.hidden-child {
  }
  #footer {
     width: 80%;
-    height: inherit;
     margin: auto;
     padding: 10px;
  }
@@ -219,7 +220,7 @@ img.hidden-child {
    font-family: 'PT Sans', sans-serif;
  }
  .footer-topinner {
-   margin-top: 50px;
+  
  }
  .w3-input {
     padding: 8px;
@@ -297,9 +298,143 @@ body {
 }
 .floated_one {
     float: right;
-    margin-bottom: 100px;
+    display: table;
+    width: 50%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.floated_one h4 {
+    font-size: 20px;
+    margin: 0px;
+    color: #202020;
+    font-weight: 500;
+}
+.floated_one h1{
+    font-size: 60px;
+    margin: 0px;
+    color: #202020;
+    font-weight: 500;
+}
+.floated_one p {
+    margin: 0px;
 }
 .floated_two {
-    float: left;
-    margin-top: 100px;
+  float: left;
+  display: table;
+  width: 50%;
+  margin-top: 100px;
+  position: relative;
+
+
+}
+.floated_two .info_head {
+    float: right;
+    padding-top: 30px;
+}
+.floated_two h1 {
+    font-size: 60px;
+    margin: 0px;
+    color: #202020;
+    font-weight: 500;
+}
+.floated_two h4 {
+    font-size: 20px;
+    margin: 0px;
+    color: #202020;
+    font-weight: 500;
+}
+.floated_two p {
+    margin-left: 100px;
+}
+.floated_one ul {
+  float: right;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.floated_one img {
+  margin-left: auto;
+  margin-top: auto;
+}
+.floated_two ul {
+  float: right;
+  margin-left: 100px;
+}
+.vertical-line {
+    border-left: 10px solid green;
+    height: 50px;
+}
+.floaterer {
+    display: table-cell;
+    width: 200px;
+    vertical-align: middle;
+}
+.lagbaja {
+    display: table-cell;
+}
+.info_table {
+  width: 100%;
+}
+.table_info {
+  width: 100%;
+}
+table, td {
+    border: 0px solid black;
+    border-collapse: collape;
+    width: 50%;
+    margin: 0;
+  }
+.info_table h1 {
+  float: right;
+  font-size: 60px;
+  font-weight: 500;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.info_table h4 {
+  font-size: 20px;
+  text-align: right;
+  width: calc(100% - 120px);
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.info_table p {
+  font-size: 20px;
+  text-align:right;
+  width: calc(100% - 120px);
+  font-family: 'PT Sans', sans-serif;
+  color: #727272;
+}
+.table_info h1 {
+  float: left;
+  font-size: 60px;
+  font-weight: 500;
+  margin-right: 15px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.table_info h4 {
+  font-size: 20px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.table_info p {
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  color: #727272;
+}
+.skills_new {
+  display: flex;
+  flex-direction: row;
+}
+.skills_new div {
+  margin: auto;
+  background-color: inherit;
+  text-align: center;
+}
+.skills_new img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.skills_new p {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
 }
