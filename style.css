@@ -96,6 +96,7 @@ ul {
   width: 80%;
   margin: auto;
   padding: 10px;
+  margin-top: 100px;
 }
 .title {
     font-size: 30px;
@@ -155,7 +156,7 @@ ul {
     margin: auto;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 800px;
+    margin-bottom: 600px;
 }
 .experience-inner {
   margin-top: 50px;
@@ -220,6 +221,7 @@ img.hidden-child {
    font-family: 'PT Sans', sans-serif;
  }
  .footer-topinner {
+   margin-top: 50px;
 
  }
  .w3-input {
@@ -460,4 +462,48 @@ table, td {
   text-align: center;
   font-weight:lighter;
   margin-top: 50px;
+}
+.funny {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+.funny img {
+  width: 400px;
+  height: 300px;
+  opacity: 0.5;
+}
+.funny div {
+  margin: auto;
+}
+.funnier h4{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+}
+.funnier {
+  text-align: center;
+  position: relative;
+}
+.funnier p {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+.headi img {
+  width: 100px;
+  height: inherit;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.skillset {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
