@@ -1,0 +1,25 @@
+
+
+@media screen and (max-width: 500px) {
+  .blakeimage {
+    width: 20%;
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .funny {
+    display: grid;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+	.nav_item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+	}
+}
+
