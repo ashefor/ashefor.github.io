@@ -1,16 +1,51 @@
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 625px) {
 	.nav_item {
-    display: list-item;
-    border-bottom: 1px solid #E0E0E0;
     width: 100%;
-    text-align: right;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    margin: auto;
 	}
 }
-@media screen and (max-width: 610px) {
-.header__menu {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    padding: 1em;
+@media screen and (max-width: 442px) {
+	.nav_item {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    margin: auto;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.btn {
+    text-align: center;
+    align-items: center;padding: 10px 0px;
+    cursor: pointer;
+    font-size: 5px;
+    border-radius: 5px;
+	}
+}
+@media screen and (max-width: 625px) {
+  .active {
+    background-color: #666;
+    color: white;
+    transition: 0.3s ease-in;
+  }
+}
+@media screen and (max-width: 442px) {
+	.btn {
+    text-align: center;
+    align-items: center;padding: 15px 0px;
+    cursor: pointer;
+    font-size: 5px;
+    border-radius: 5px;
+	}
+}
+@media screen and (max-width: 442px) {
+  .active {
+    background-color: #666;
+    color: white;
+    transition: 0.3s ease-in;
   }
 }

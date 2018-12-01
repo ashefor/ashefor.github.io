@@ -89,7 +89,7 @@ p a:hover {
 }
 
 .btn {
-  border: none;
+    border: none;
     outline: none;
     padding: 10px 16px;
     background-color: #f1f1f1;
