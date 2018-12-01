@@ -171,12 +171,18 @@ h2 {
   width: 100%;
 }
 p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
-    font-weight: 400;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Mali', cursive;
 }
-
+h2 {
+    font-size: 50px;
+    font-family: 'Mali', cursive;
+    color: brown;
+}
+h1 {
+    font-family: 'Kodchasan', sans-serif;
+}
 .visible-child {
     margin-left: auto;
 }
