@@ -16,6 +16,33 @@
     margin: auto;
 	}
 }
+@media screen and  (max-width: 395px) {
+	.nav_item {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 9px;
+    margin: auto;
+	}
+}
+@media screen and  (max-width: 386px) {
+	.nav_item {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 8px;
+    margin: auto;
+	}
+}
+@media screen and  (max-width: 320px) {
+	.nav_item {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    margin: auto;
+	}
+}
 
 @media screen and (max-width: 625px) {
 	.btn {
@@ -38,11 +65,46 @@
     text-align: center;
     align-items: center;padding: 15px 0px;
     cursor: pointer;
-    font-size: 5px;
+    font-size: 10px;
     border-radius: 5px;
 	}
 }
 @media screen and (max-width: 442px) {
+  .active {
+    background-color: #666;
+    color: white;
+    transition: 0.3s ease-in;
+  }
+}
+@media screen and (max-width: 386px) {
+	.btn {
+    text-align: center;
+    align-items: center;padding: 10px 0px;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+
+	}
+}
+@media screen and (max-width: 386px) {
+  .active {
+    background-color: #666;
+    color: white;
+    transition: 0.3s ease-in;
+  }
+}
+@media (min-width: 320px) and (max-width: 380px) {
+	.btn {
+    text-align: center;
+		padding: 10px 0px;
+    cursor: pointer;
+    font-size: 5px;
+    border-radius: 5px;
+		margin: 0;
+
+	}
+}
+@media (min-width: 320px) and (max-width: 380px) {
   .active {
     background-color: #666;
     color: white;
