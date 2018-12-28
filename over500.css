@@ -47,9 +47,7 @@
 @media screen and (max-width: 625px) {
 	.btn {
     text-align: center;
-    align-items: center;padding: 10px 0px;
     cursor: pointer;
-    font-size: 5px;
     border-radius: 5px;
 	}
 }
@@ -63,9 +61,7 @@
 @media screen and (max-width: 442px) {
 	.btn {
     text-align: center;
-    align-items: center;padding: 15px 0px;
     cursor: pointer;
-    font-size: 10px;
     border-radius: 5px;
 	}
 }
@@ -79,9 +75,7 @@
 @media screen and (max-width: 386px) {
 	.btn {
     text-align: center;
-    align-items: center;padding: 10px 0px;
     cursor: pointer;
-    font-size: 10px;
     border-radius: 5px;
 
 	}
@@ -96,9 +90,7 @@
 @media (min-width: 320px) and (max-width: 380px) {
 	.btn {
     text-align: center;
-		padding: 10px 0px;
     cursor: pointer;
-    font-size: 5px;
     border-radius: 5px;
 		margin: 0;
 
