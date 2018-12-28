@@ -52,10 +52,11 @@
 	}
 	.content {
 	  height: auto;
-		margin-top: 100px;
+	  margin: 100px 15px 0 15px;
 	  min-height: 500px;
 	}
 }
+
 @media screen and (max-width: 625px) {
   .active {
     background-color: #666;
@@ -71,7 +72,7 @@
 	}
 	.content {
 	  height: auto;
-	  margin-top: 100px;
+	  margin: 50px 10px 0 10px;
 	  min-height: 500px;
 	}
 }
@@ -91,7 +92,7 @@
 	}
 	.content {
 	  height: auto;
-	  margin-top: 100px;
+	  margin: 50px 10px 0 10px;
 	  min-height: 500px;
 	}
 }
@@ -112,7 +113,7 @@
 	}
 	.content {
 	  height: auto;
-	  margin-top: 100px;
+	  margin: 50px 5px 0 5px;
 	  min-height: 500px;
 	}
 }
