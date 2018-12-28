@@ -346,13 +346,14 @@ img {
     grid-gap: 20px;
     margin: 20px;
 }
-.box > p {
+.grid-wrapper > p {
   text-align: center;
+  font-size: 100px;
 }
 .box {
     background: grey;
     padding: 150px;
-    height: 100%;
+    height: auto;
 }
 
 .box > img {
