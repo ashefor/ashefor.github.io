@@ -56,6 +56,10 @@
 	  margin: 100px 15px 15px 15px;
 	  min-height: 500px;
 	}
+	/*.push {
+	    margin-left: auto;
+			margin-right: 10px;
+	}*/
 }
 
 @media screen and (max-width: 625px) {
@@ -112,7 +116,7 @@
 		margin-right: 5px;
     cursor: pointer;
     border-radius: 5px;
-		font-size: 8px;
+		font-size: 7px;
 
 	}
 	.content {
