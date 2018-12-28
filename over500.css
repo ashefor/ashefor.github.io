@@ -1,7 +1,7 @@
 @media screen and (max-width: 625px) {
 	.nav_item {
     width: 100%;
-    
+
     align-items: center;
     font-size: 15px;
     margin: auto;
@@ -10,7 +10,7 @@
 @media screen and (max-width: 442px) {
 	.nav_item {
     width: 100%;
-    
+
     align-items: center;
     font-size: 10px;
     margin: auto;
@@ -19,7 +19,7 @@
 @media screen and  (max-width: 395px) {
 	.nav_item {
     width: 100%;
-    
+
     align-items: center;
     font-size: 9px;
     margin: auto;
@@ -28,7 +28,7 @@
 @media screen and  (max-width: 386px) {
 	.nav_item {
     width: 100%;
-    
+
     align-items: center;
     font-size: 8px;
     margin: auto;
@@ -37,7 +37,7 @@
 @media screen and  (max-width: 320px) {
 	.nav_item {
     width: 100%;
-    
+
     align-items: center;
     font-size: 10px;
     margin: auto;
@@ -46,7 +46,8 @@
 
 @media screen and (max-width: 625px) {
 	.btn {
-    
+    margin-left: 0;
+		margin-right: 0;
     cursor: pointer;
     border-radius: 5px;
 	}
@@ -66,7 +67,8 @@
 }
 @media screen and (max-width: 442px) {
 	.btn {
-    
+		margin-left: 0;
+		margin-right: 0;
     cursor: pointer;
     border-radius: 5px;
 	}
@@ -85,7 +87,8 @@
 }
 @media screen and (max-width: 386px) {
 	.btn {
-    
+		margin-left: 0;
+		margin-right: 0;
     cursor: pointer;
     border-radius: 5px;
 
@@ -105,7 +108,8 @@
 }
 @media (min-width: 320px) and (max-width: 380px) {
 	.btn {
-    
+		margin-left: 0;
+		margin-right: 0;
     cursor: pointer;
     border-radius: 5px;
 
