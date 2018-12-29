@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="../styles/robotstyle.css" rel='stylesheet' type="text/css">
+
+
+</head>
+
+<body>
+<a href="../pages/projects.html" > <button class="homeb"> Projects </button> </a>
+<div class="robot content">
+  <div class="beep"></div>
+  <div class="brain"></div>
+  <div class="torso">
+    <div class="left">j</div>
+    <div class="right">j</div>
+  </div>
+  <div class="foot"></div>
+  <button class="flash button">LASER ON/OFF</button>
+  <button class="color button">BACKGROUND</button>
+</div>
+
+<script>
+// When eyes button is clicked, toggle laser class on brain
+$(".flash").click(function() {
+  $(".brain").toggleClass('laser');
+});
+
+// When color button is clicked...
+$(".color").click(function() {
+  // assign each named color a random number 0-255
+  var red = Math.floor(Math.random() * 255);
+  var green = Math.floor(Math.random() * 255);
+  var blue = Math.floor(Math.random() * 255);
+
+  //
+  var randomRGBA = 'rgba('+red+','+green+','+blue+',1)';
+
+  $('body').css('background', randomRGBA);
+  //
+
+  $('.moves').click(function() {
+    $('img').toggle();
+  });
+});
+</script>
+</body>
+</html>
